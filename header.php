@@ -24,6 +24,7 @@
 
 		<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/torola.css" />
 		<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/style.css" />
+		<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/all.min.css" />
 
 	</head>
 
@@ -48,14 +49,14 @@
 
 						?>
 
-						<button class="toggle search-toggle mobile-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+						<!-- <button class="toggle search-toggle mobile-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
 							<span class="toggle-inner">
 								<span class="toggle-icon">
 									<?php twentytwenty_the_theme_svg( 'search' ); ?>
 								</span>
 								<span class="toggle-text"><?php _e( 'Search', 'twentytwenty' ); ?></span>
 							</span>
-						</button><!-- .search-toggle -->
+						</button> .search-toggle -->
 
 					<?php } ?>
 
@@ -76,7 +77,7 @@
 							<span class="toggle-icon">
 								<?php twentytwenty_the_theme_svg( 'ellipsis' ); ?>
 							</span>
-							<span class="toggle-text"><?php _e( 'Menu', 'twentytwenty' ); ?></span>
+							<span class="toggle-text"><?php _e( '', 'twentytwenty' ); ?></span>
 						</span>
 					</button><!-- .nav-toggle -->
 
@@ -137,7 +138,7 @@
 
 								<button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
 									<span class="toggle-inner">
-										<span class="toggle-text"><?php _e( 'Menu', 'twentytwenty' ); ?></span>
+										<span class="toggle-text"><?php _e( '', 'twentytwenty' ); ?></span>
 										<span class="toggle-icon">
 											<?php twentytwenty_the_theme_svg( 'ellipsis' ); ?>
 										</span>

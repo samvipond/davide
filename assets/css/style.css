@@ -4,15 +4,43 @@
 
 #site-header{
   background: #000;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
 }
 
 body:not(.overlay-header) .primary-menu > li > a{
   color: #fff;
-  /* text-decoration: none; */
+  text-transform: uppercase;
+}
+
+.svg-icon{
+  color: #fff;
+}
+
+/* mobile menu */
+
+.menu-modal-inner.modal-inner {
+  background: #000;
   text-transform: uppercase;
 }
 
 body:not(.overlay-header) .primary-menu > li span.icon {
   display: none;
+}
+
+#site-footer{
+  background: #000 !important;
+}
+
+.header-footer-group pre, .header-footer-group fieldset, .header-footer-group input, .header-footer-group textarea, .header-footer-group table, .header-footer-group table *, .footer-nav-widgets-wrapper, #site-footer, .menu-modal nav *, .footer-widgets-outer-wrapper, .footer-top{
+  border: none;
+}
+
+body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
+  color: #fff;
+}
+
+/* Gallery */
+
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+  max-width: 100rem;
 }
