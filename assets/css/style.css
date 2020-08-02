@@ -9,7 +9,7 @@
 
 body:not(.overlay-header) .primary-menu > li > a{
   color: #fff;
-  text-decoration: none;
+  /* text-decoration: none; */
   text-transform: uppercase;
 }
 
