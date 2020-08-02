@@ -22,6 +22,9 @@
 
 		<?php wp_head(); ?>
 
+		<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/torola.css" />
+		<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/style.css" />
+
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -60,10 +63,10 @@
 
 						<?php
 							// Site title or logo.
-							twentytwenty_site_logo();
+							// twentytwenty_site_logo();
 
 							// Site description.
-							twentytwenty_site_description();
+							// twentytwenty_site_description();
 						?>
 
 					</div><!-- .header-titles -->

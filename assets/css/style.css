@@ -1,0 +1,18 @@
+.rl-shortcode{
+  background: transparent;
+}
+
+#site-header{
+  background: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body:not(.overlay-header) .primary-menu > li > a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body:not(.overlay-header) .primary-menu > li span.icon {
+  display: none;
+}
