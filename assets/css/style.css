@@ -44,3 +44,15 @@ body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .pri
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
   max-width: 100rem;
 }
+
+/* sticky footer */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.my-content {
+  flex: 1;
+}

@@ -24,11 +24,12 @@
 
 		<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/torola.css" />
 		<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/style.css" />
-		<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/all.min.css" />
+		<!-- <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/all.min.css" /> -->
 
 	</head>
 
 	<body <?php body_class(); ?>>
+	<div class="my-content">
 
 		<?php
 		wp_body_open();
